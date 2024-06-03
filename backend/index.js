@@ -9,7 +9,7 @@ app.get("/", (req, res) => {
 });
 
 const server = app.listen(port, () => {
-  console.log("Server running on port", port);  
+  console.log("Server running on port", port);
 });
 
 const websocket = new WebSocketServer({ server });
